@@ -1,0 +1,10 @@
+<svg width="80" height="60" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Checkmark</title>
+  <circle cx="5" cy="35" r="3" stroke="none" fill="#FFF"/>
+  <line x1="5" y1="35" x2="25" y2="55" stroke-width="6" stroke="#FFF" fill="none"/>
+  <circle cx="25" cy="54.8" r="3" stroke="none" fill="#FFF"/>
+  <line x1="25" y1="55" x2="75" y2="5" stroke-width="6" stroke="#FFF" fill="none"/>
+  <circle cx="75" cy="5" r="3" stroke="none" fill="#FFF"/>
+ </g>
+</svg>
