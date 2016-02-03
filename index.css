@@ -1,0 +1,134 @@
+/* Reset row box to prevent width overflow */
+body > .row { padding: 0; margin: 0; }
+
+/*
+Colors
+Highlight Blue: #E9F8FF
+Light Blue: #2CB7FF
+Dark Blue: #2A7BBF
+Orca Blue: #122892
+*/
+
+.header {
+  /*font-family: 'nimbus sans regular', */
+  padding: 20px 0 40px 0;
+  font-size: 45px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.row.navbar {
+  background: #2CB7FF;
+  border-radius: 0;
+  text-align: center;
+}
+.row.navbar > a > .nav-link {
+  display: inline-block;
+  line-height: 80px;
+  padding: 0 20px;
+  color: white;
+}
+.row.navbar > a > .nav-link:hover {
+  background: #2A7BBF;
+}
+.row.navbar > a > .nav-link.selected {
+  background: #2A7BBF;
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.masthead > .background {
+  min-height: 100%; min-width: 100%;
+  z-index: -1;
+}
+.masthead .overlay-text {
+  position: absolute;
+  width: 900px;
+  top: 0; left: 50%;
+  margin-left: -450px;
+  z-index: 1;
+
+  padding-top: 60px;
+  text-align: center;
+  font-size: 80px;
+}
+
+.info-section {
+  margin: 100px auto;
+  text-align: center;
+}
+.info-section > .img-container > img {
+  width: 200px;
+}
+.info-section > .title {
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.info-section > .text {
+  padding: 0px 40px;
+  font-size: 18px;
+}
+.info-section > .link > a {
+  font-size: 18px;
+  color: #2CB7FF;
+}
+
+.download-section {
+  background: #E9F8FF;
+  padding: 40px;
+}
+.download-section a:hover {
+  text-decoration: none;
+}
+.download-section .link-btn {
+  width: 300px;
+  margin: 40px auto;
+  background: #2CB7FF;
+  border-radius: 6px;
+
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  color: white;
+}
+.link-btn > .fa {
+  padding-right: 10px;
+}
+
+.welcome-section {
+  padding: 100px 20px;
+}
+.welcome-section h3 {
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+}
+
+.orca-bar {
+  background: #122892;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  color: white;
+}
+.orca-bar .checkmark {
+  height: 20px;
+  padding-right: 10px;
+}
+.orca-bar .orca-logo {
+  height: 35px;
+  padding-left: 20px;
+}
+
+.footer {
+  padding: 40px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+
+}
