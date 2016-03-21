@@ -27,7 +27,7 @@
         Home
       </div>
     </a>
-    <a href="providers">
+    <a href="providers/index">
       <div class="nav-link">
         Meet Our Providers
       </div>
