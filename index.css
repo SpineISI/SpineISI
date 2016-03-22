@@ -1,5 +1,5 @@
 /* Reset row box to prevent width overflow */
-body > .row { padding: 0; margin: 0; }
+.row { padding: 0; margin: 0; }
 
 /*
 Colors
