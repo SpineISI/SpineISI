@@ -174,6 +174,41 @@ Orca Blue: #122892
   font-size: 16px;
 }
 
+.dropdown-section {
+  margin-top: 40px;
+}
+.dropdown-section .dropdown {
+  margin-top: 15px;
+}
+.dropdown-section .dropdown-title {
+  position: relative;
+  cursor: pointer;
+}
+.dropdown-section .dropdown-title::after {
+  position: absolute;
+  content: '';
+  right: -20px; top: 6px;
+  width: 0; height: 0;
+  border-top: 5px solid #2CB7FF;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.dropdown-section .dropdown-title.expanded::after {
+  top: 2px;
+  right: -22px;
+  border-left: 5px solid #2CB7FF;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+.dropdown-section .dropdown-list {
+  padding: 20px;
+}
+
+.underline {
+  text-decoration: underline;
+  margin-top: 70px;
+}
+
 @media (max-width: 979px) {
   .row.navbar > a > .nav-link { padding: 0 10px; }
   .masthead { height: 300px; }
