@@ -190,6 +190,8 @@ h3 {
   margin-top: 15px;
 }
 .dropdown-section .dropdown-title {
+  display: inline-block;
+  width: auto;
   position: relative;
   cursor: pointer;
 }
