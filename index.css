@@ -198,14 +198,14 @@ h3 {
 .dropdown-section .dropdown-title::after {
   position: absolute;
   content: '';
-  right: -20px; top: 6px;
+  right: -20px; top: 10px;
   width: 0; height: 0;
   border-top: 5px solid #2CB7FF;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
 }
 .dropdown-section .dropdown-title.expanded::after {
-  top: 2px;
+  top: 6px;
   right: -22px;
   border-left: 5px solid #2CB7FF;
   border-top: 5px solid transparent;
