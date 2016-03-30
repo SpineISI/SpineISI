@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.dropdown-title').click(function() {
+  $('.dropdown-title').on('click tap', function() {
     var list = $(this).parent().find('.dropdown-list');
     if ($(this).hasClass('expanded')) {
       list.show();
