@@ -17,6 +17,23 @@ Orca Blue: #122892
   text-align: center;
 }
 
+h1 {
+  font-size: 72px;
+  font-weight: 300;
+  margin: 50px 0;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 300;
+  margin: 50px 0;
+}
+
+h3 {
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+}
+
 .row.navbar {
   background: #2CB7FF;
   border-radius: 0;
@@ -102,10 +119,6 @@ Orca Blue: #122892
 .welcome-section {
   padding: 100px 20px;
 }
-.welcome-section h3 {
-  letter-spacing: 2px;
-  padding-bottom: 5px;
-}
 
 .orca-bar {
   background: #122892;
@@ -155,11 +168,6 @@ Orca Blue: #122892
   margin: 0 auto;
   max-width: 700px;
 }
-.text-container h1 {
-  font-size: 72px;
-  font-weight: 300;
-  margin: 50px 0;
-}
 .text-container .section {
   margin-bottom: 50px;
 }
@@ -206,11 +214,6 @@ Orca Blue: #122892
 
 .underline { text-decoration: underline; }
 
-.location-header {
-  font-size: 72px;
-  font-weight: 300;
-  margin: 50px 0;
-}
 .text-block {
   display: inline-block;
 }
