@@ -57,6 +57,66 @@
     </div> <!-- Navbar -->
   </header>
 
+  <div class="container">
+    <h1 class="location-header">Our Location</h1>
+    <div class="location-img">
+      <img src="assets/building.png" alt="" />
+    </div>
+
+    <div class="text-block">
+      <div class="location">
+        ISI is located on the campus of The Orthopedic Specialty Hospital (TOSH), in the Medical Office Building.
+      </div>
+      <div class="contact-header">
+        Contact us at:
+      </div>
+      <div class="address">
+        5770 South 250 East Suite 135 <br>
+        Salt Lake City, Utah 84107
+      </div>
+      <table class="contact-info">
+        <tr>
+          <td>Reception:</td>
+          <td>(801) 314-BACK (2225)</td>
+        </tr>
+        <tr>
+          <td>Billing:</td>
+          <td>(801) 314-2225</td>
+        </tr>
+        <tr>
+          <td>Fax:</td>
+          <td>(801) 314-2345</td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><a href="mailto:info@intermountainspine.com">info@intermountainspine.com</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          zoom: 14,
+          center: new google.maps.LatLng(40.6447596, -111.8860383),
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+        marker = new google.maps.Marker({
+          map: map,
+          position: new google.maps.LatLng(40.6447596,-111.8860383)
+        });
+        infowindow = new google.maps.InfoWindow({
+          content: '<strong>Intermountain Spine Institute</strong><br>5770 S 250 E #135<br>84107 Murray<br>'
+        });
+        infowindow.open(map, marker);
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+  </div>
+
+
   <footer>
     <div class="row orca-bar">
       <img src="assets/checkmark.svg" alt="" class="checkmark"/>

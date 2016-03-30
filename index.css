@@ -204,9 +204,59 @@ Orca Blue: #122892
   padding: 20px;
 }
 
-.underline {
-  text-decoration: underline;
-  margin-top: 70px;
+.underline { text-decoration: underline; }
+
+.location-header {
+  font-size: 72px;
+  font-weight: 300;
+  margin: 50px 0;
+}
+.text-block {
+  display: inline-block;
+}
+.text-block > .location {
+  font-size: 20px;
+  width: 700px;
+}
+.text-block > .contact-header {
+  font-weight: bold;
+  margin: 20px 0;
+}
+.text-block > .address {
+  margin-bottom: 20px;
+}
+.text-block > .contact-info td { padding-right: 10px; }
+.location-img {
+  margin-bottom: 50px;
+}
+.location-img img {
+  width: 100%;
+}
+#map {
+  height: 400px;
+  width: 400px;
+  float: right;
+}
+
+@media (max-width: 1200px) {
+  .text-block {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+  }
+  .text-block > .location {
+    width: 700px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .text-block > .contact-header, .text-block > .address { text-align: center; }
+  .text-block > .contact-info { margin: 0 auto; }
+  #map {
+    float: none;
+    margin: 30px auto;
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 979px) {
